@@ -29,7 +29,7 @@ CREATE TABLE  products (
 
 INSERT INTO departments(name) VALUES ('Management'), ('Kitchen Staff'), ('Service Staff'), ('Housekeeping Staff'), ('Security Staff');
 
-INSERT INTO employees (first_name, last_name, department_id, salary) VALUES ('Jasmine','Maggot',2,1250.00), 
+INSERT INTO employees (first_name, last_name, department_id, salary) VALUES ('Jasmine','Maggot',2,1250.00),
 ('Nancy','Olson',2,1350.00), ('Karen','Bender',1,2400.00), ('Pricilia','Parker',2,980.00),
 ('Stephen','Bedford',2,780.00),('Jack','McGee',1,1700.00),('Clarence','Willis',3,650.00),
 ('Michael','Boren',3,780.00),('Lila','Young',4,NULL), ('Steve','Benson',3,NULL), ('Jenny','Hale',3,NULL);
